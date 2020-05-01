@@ -1,0 +1,11 @@
+directory/A.txt
+directory/b.txt
+directory/BuDosya3.txt
+directory/cdg.txt
+directory/Dosya1.txt
+directory/Dosya2.txt
+directory/haHAA.txt
+directory/neE.txt
+directory/dosya9.txt
+directory/dosya8.txt
+directory/test.txt

@@ -1,0 +1,3 @@
+﻿  SelectionSort.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\sortalgorithms\1_selectionsort\1_selectionsort\selectionsort.c(27): warning C4013: 'getch' tanımsız; int döndüren extern olduğu varsayılıyor
+  1_SelectionSort.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\SortAlgorithms\1_SelectionSort\Debug\1_SelectionSort.exe

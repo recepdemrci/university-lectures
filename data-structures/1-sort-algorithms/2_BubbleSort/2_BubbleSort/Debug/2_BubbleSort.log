@@ -1,0 +1,3 @@
+﻿  BubbleSort.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\sortalgorithms\2_bubblesort\2_bubblesort\bubblesort.c(19): warning C4013: 'getch' tanımsız; int döndüren extern olduğu varsayılıyor
+  2_BubbleSort.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\SortAlgorithms\2_BubbleSort\Debug\2_BubbleSort.exe

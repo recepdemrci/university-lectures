@@ -1,0 +1,7 @@
+﻿  Closest_Pair.c
+d:\• okul\3-1\algoritmaanalizi\odevler\odev1\odev1\closest_pair.c(73): warning C4013: 'getch' undefined; assuming extern returning int
+d:\• okul\3-1\algoritmaanalizi\odevler\odev1\odev1\closest_pair.c(195): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\• okul\3-1\algoritmaanalizi\odevler\odev1\odev1\closest_pair.c(196): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\• okul\3-1\algoritmaanalizi\odevler\odev1\odev1\closest_pair.c(197): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\• okul\3-1\algoritmaanalizi\odevler\odev1\odev1\closest_pair.c(216): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  odev1.vcxproj -> D:\• Okul\3-1\AlgoritmaAnalizi\Odevler\odev1\Debug\odev1.exe

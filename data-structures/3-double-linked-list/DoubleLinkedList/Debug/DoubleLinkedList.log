@@ -1,0 +1,3 @@
+﻿  DoubleLinkedList.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\doublelinkedlist\doublelinkedlist\doublelinkedlist.c(29): warning C4013: 'getch' tanımsız; int döndüren extern olduğu varsayılıyor
+  DoubleLinkedList.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\DoubleLinkedList\Debug\DoubleLinkedList.exe

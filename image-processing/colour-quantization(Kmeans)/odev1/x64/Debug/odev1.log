@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (odev1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  K-means-Clustering.cpp
+d:\• okul\3-1\imageprocessing\homeworks\hw1\odev1\k-means-clustering.cpp(73): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  odev1.vcxproj -> D:\• Okul\3-1\ImageProcessing\Homeworks\HW1\x64\Debug\HW1.exe

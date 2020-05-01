@@ -1,0 +1,3 @@
+﻿  BruteForce.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\8_substringsearchs\bruteforce\bruteforce\bruteforce.c(32): warning C4013: 'getch' undefined; assuming extern returning int
+  BruteForce.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\8_SubstringSearchs\BruteForce\Debug\BruteForce.exe

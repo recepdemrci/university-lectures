@@ -1,0 +1,134 @@
+import cv2
+import numpy
+
+
+def lbp(gray_image, rows, cols):
+    lbp_image = numpy.zeros((rows, cols), dtype=numpy.uint8)
+    for i in range(1, rows - 1):
+        for j in range(1, cols - 1):
+            current_pixel = gray_image[i][j]
+            new_pixel = 0
+            if gray_image[i - 1][j - 1] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i - 1][j] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i - 1][j + 1] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i][j + 1] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i + 1][j + 1] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i + 1][j] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i + 1][j - 1] > current_pixel:
+                new_pixel += 1
+            new_pixel *= 2
+            if gray_image[i][j - 1] > current_pixel:
+                new_pixel += 1
+
+            lbp_image[i][j] = new_pixel
+    return lbp_image
+
+
+def normalize(hist, number_of_pixels):
+    for i in range(0, 256):
+        hist[0][i] = (hist[0][i] / number_of_pixels)
+        hist[1][i] = (hist[1][i] / number_of_pixels)
+        hist[2][i] = (hist[2][i] / number_of_pixels)
+        hist[3][i] = (hist[3][i] / number_of_pixels)
+
+    return hist
+
+
+def get_histogram(image):
+    rows = image.shape[0]  # assign rows
+    cols = image.shape[1]  # assign cols
+
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    lbp_image = lbp(gray_image, rows, cols)  # calculate lbp of the mage
+
+    hist = numpy.zeros((4, 256), dtype=numpy.double)  # define 4 Histogram and arrange them as 0(int)
+    for i in range(0, rows):
+        for j in range(0, cols):
+            blue_index = image[i, j, 0]  # look at the current pixel's blue value and increase
+            green_index = image[i, j, 1]  # look at the current pixel's green value and increase
+            red_index = image[i, j, 2]  # look at the current pixel's red value and increase
+            lbp_index = lbp_image[i, j]
+
+            hist[0][blue_index] += 1
+            hist[1][green_index] += 1
+            hist[2][red_index] += 1
+            hist[3][lbp_index] += 1
+
+    normalized_hist = normalize(hist, rows * cols)
+    return normalized_hist
+
+
+def distance(hist_1, hist_2):
+    dist = 0
+    for i in range(0, 256):
+        dist += abs(hist_1[0][i] - hist_2[0][i])
+        dist += abs(hist_1[1][i] - hist_2[1][i])
+        dist += abs(hist_1[2][i] - hist_2[2][i])
+        dist += abs(hist_1[3][i] - hist_2[3][i])
+
+    return dist
+
+
+def create_images_histograms():
+    histograms = numpy.zeros((15, 4, 256), dtype=numpy.double)
+    flag = 0
+    i = 0
+    while flag == 0:
+        image_name = 'testImage/image' + str(i) + '.jpg'
+        image = cv2.imread(image_name)  # image is read with OpenCV library
+
+        if image is None:
+            print('All image`s histograms have been read')
+            flag = 1
+        else:
+            print('> histograms of  the images are creating... ')
+            histograms[i] = get_histogram(image)
+            i += 1
+
+    return histograms
+
+
+def compare(histograms, image_name):
+    image = cv2.imread(image_name)
+    if image is None:
+        print('Image not found!')
+        exit(-2)
+
+    image_histogram = get_histogram(image)
+    min_index = 0
+    min_distance = distance(histograms[0], image_histogram)
+    for i in range(1, len(histograms)):
+        dist = distance(histograms[i], image_histogram)
+        if dist < min_distance:
+            min_distance = dist
+            min_index = i
+
+    return min_index
+
+
+# -----------------------------------------------------------------------------
+def contend_based_image_retrieval():
+
+    histograms = create_images_histograms()
+
+    image_name = input("Write image name which you want to find!")
+    index_of_image = compare(histograms, image_name)
+    print(index_of_image)
+
+
+contend_based_image_retrieval()
+
+# cv2.imshow('Result', image)
+# cv2.waitKey(0)

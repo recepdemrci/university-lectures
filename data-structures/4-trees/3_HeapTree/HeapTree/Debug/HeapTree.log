@@ -1,0 +1,4 @@
+﻿  HeapTree.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\7_trees\heaptree\heaptree\heaptree.c(55): warning C4101: 'tmp': unreferenced local variable
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\7_trees\heaptree\heaptree\heaptree.c(141): warning C4013: 'getch' undefined; assuming extern returning int
+  HeapTree.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\7_Trees\HeapTree\Debug\HeapTree.exe

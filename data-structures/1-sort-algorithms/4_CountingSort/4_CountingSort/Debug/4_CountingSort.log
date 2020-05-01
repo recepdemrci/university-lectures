@@ -1,0 +1,3 @@
+﻿  CountingSort.c
+d:\okul(18.01.07)\2-2\veriyapılarıalgoritma\sortalgorithms\4_countingsort\4_countingsort\countingsort.c(28): warning C4013: 'getch' tanımsız; int döndüren extern olduğu varsayılıyor
+  4_CountingSort.vcxproj -> D:\Okul(18.01.07)\2-2\VeriYapılarıAlgoritma\SortAlgorithms\4_CountingSort\Debug\4_CountingSort.exe

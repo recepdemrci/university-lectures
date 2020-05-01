@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76ac35e9-bc1a-44c3-95c5-605943a38ede" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1awNpHeppvkcOXp9N29s4bKeYED" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\• Okul\3-2\AI\Homeworks\HW_2\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.solve_maze (2)">
+    <configuration name="solve_maze (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HW_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/solve_maze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solve_maze (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HW_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/solve_maze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solve_maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HW_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/solve_maze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.solve_maze (2)" />
+        <item itemvalue="Python.solve_maze (1)" />
+        <item itemvalue="Python.solve_maze" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76ac35e9-bc1a-44c3-95c5-605943a38ede" name="Default Changelist" comment="" />
+      <created>1587642877816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587642877816</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Inspections" timestamp="1588087172584">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1588087172584" />
+    <state x="552" y="198" key="#Notifications" timestamp="1587983420291">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1587983420291" />
+    <state x="640" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587983409728">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587983409728" />
+    <state width="1899" height="469" key="GridCell.Tab.0.bottom" timestamp="1588207229132">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="469" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588207229132" />
+    <state width="1899" height="469" key="GridCell.Tab.0.center" timestamp="1588207229131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="469" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588207229131" />
+    <state width="1899" height="469" key="GridCell.Tab.0.left" timestamp="1588207229131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="469" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588207229131" />
+    <state width="1899" height="469" key="GridCell.Tab.0.right" timestamp="1588207229131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="469" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588207229131" />
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1588158838718">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588158838718" />
+    <state width="1899" height="363" key="GridCell.Tab.1.center" timestamp="1588158838718">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588158838718" />
+    <state width="1899" height="363" key="GridCell.Tab.1.left" timestamp="1588158838718">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588158838718" />
+    <state width="1899" height="363" key="GridCell.Tab.1.right" timestamp="1588158838718">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588158838718" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1587643026144">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587643026144" />
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1588203097957">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588203097957" />
+    <state x="701" y="183" key="refactoring.ChangeSignatureDialog" timestamp="1587768672168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="701" y="183" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587768672168" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1587726931518">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587726931518" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="setup.screen" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

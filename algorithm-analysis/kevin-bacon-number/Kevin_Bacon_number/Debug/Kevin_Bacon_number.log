@@ -1,0 +1,6 @@
+﻿  kevin_bacon_number.c
+d:\• okul\3-1\algorithmanalysis\homeworks\kevin_bacon_number\kevin_bacon_number\kevin_bacon_number.c(97): warning C4013: 'gets' undefined; assuming extern returning int
+d:\• okul\3-1\algorithmanalysis\homeworks\kevin_bacon_number\kevin_bacon_number\kevin_bacon_number.c(117): warning C4013: 'getch' undefined; assuming extern returning int
+d:\• okul\3-1\algorithmanalysis\homeworks\kevin_bacon_number\kevin_bacon_number\kevin_bacon_number.c(172): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+d:\• okul\3-1\algorithmanalysis\homeworks\kevin_bacon_number\kevin_bacon_number\kevin_bacon_number.c(455): warning C4244: '+=': conversion from 'double' to 'unsigned long', possible loss of data
+  Kevin_Bacon_number.vcxproj -> D:\• Okul\3-1\AlgorithmAnalysis\Homeworks\Kevin_Bacon_number\Debug\Kevin_Bacon_number.exe
