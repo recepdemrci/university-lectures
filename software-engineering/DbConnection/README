@@ -1,0 +1,23 @@
+DATABASE CONNECTION
+---------------------
+
+1- Download Microsoft JDBC driver for SQL server:
+        (https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15)
+2- Add JDBC driver to dependencies:
+        File > Project Structure > Modules > Dependencies > + tıkla
+        Bir önceki adımda indirdiğin dosyaların içinde "mssql-jdbc-8.2.2.jre11.jar" seç.
+3- Kodunu yaz.
+
+Hala hata alıyorsan:
+https://stackoverflow.com/questions/12523865/jdbc-simple-mssql-connection-example-not-working
+https://stackoverflow.com/questions/12496045/errorthe-tcp-ip-connection-to-the-host-has-failed-java-net-connectexception-c/12496575#12496575
+
+4- Enable Sql Server Browser by:
+       Start > Control Panel > Systems & Security > Administrative tools > Services
+       Select SQL Server Browser Right click and select Start. (Or you can make start option automatic)
+5- Configure TCP/IP communication with SQL Express:
+       Open SQL Server Configuration Manager.
+       Go to SQL Server Network Configuration -> Protocols for SQLEXPRESS
+       Set the status of TCP/IP protocol to "Enabled" (if it is already not).
+       Open Properties window for TCP/IP, go to IP Addresses section.
+       Go to the bottom of this property page and set the TCP Port under IPAll to 1433.
