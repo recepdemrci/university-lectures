@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MobileProgramming</string>
+    <string name="example_email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="name">First Name</string>
+    <string name="surname">Last Name</string>
+    <string name="example_phone">Phone Number</string>
+    <string name="birthdate">Birth Date</string>
+    <string name="confirm">Confirm</string>
+    <string name="exam">Exam</string>
+    <string name="add_question">Add Question</string>
+    <string name="new_question">New Question</string>
+    <string name="list_questions">List Questions</string>
+    <string name="create_exam">Create Exam</string>
+    <string name="enter_question">Write your question here</string>
+    <string name="answer1"> (A) Write your answer</string>
+    <string name="answer2"> (B) Write your answer</string>
+    <string name="answer3"> (C) Write your answer</string>
+    <string name="answer4"> (D) Write your answer</string>
+    <string name="answer5">(E) Write your answer</string>
+    <string name="add">Add File</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="signout">Sign Out</string>
+    <string name="exam_settings">Exam Settings</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_audio">Add Audio</string>
+    <string name="add_video">Add Video</string>
+    <string name="set_exam_time">Set Exam Time</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="set_exam_level">Set Exam Level</string>
+    <string name="set_question_score">Set Question Score</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
